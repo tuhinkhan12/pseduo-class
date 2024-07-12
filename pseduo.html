@@ -8,12 +8,53 @@
         h3{
             color: yellowgreen;
         }
+        /* hover means mouse over */
         h3:hover{
+            color: orange;
             background-color: aqua;
+        }
+        /* for focus any input */
+        input:focus{
+            color: red;
+            padding-left: 20px;
+            outline: 0;
+            border: 1px solid blue;
+        }
+        /* kono website visit kore thakle tar clr */
+        a:visited{
+            color: green;
+        }
+        /* first/last child clr kora */
+        li:last-child{
+            color: red;
+        }
+        li:first-child{
+            color: green;
+        }
+        /* zor ba bijor/1 tar pore 3no style kora */
+        li:nth-child(3n+1){
+            color: violet;
         }
     </style>
 </head>
 <body>
     <h3>my pseduo class</h3>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <a href="https://www.google.com/search?q=googlefont&rlz=1C1BNSD_enBD1096BD1096&oq=google&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIYCAEQLhhDGIMBGMcBGLEDGNEDGIAEGIoFMgYIAhBFGDsyEggDEAAYQxiDARixAxiABBiKBTISCAQQABhDGIMBGLEDGIAEGIoFMgwIBRAAGEMYgAQYigUyEggGEAAYQxiDARixAxiABBiKBTIMCAcQABhDGIAEGIoFMgcICBAAGI8CMgcICRAAGI8C0gEKMTI4OTJqMGoxNagCCLACAQ&sourceid=chrome&ie=UTF-8">google font</a>
+    <a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwKjQ2LDZg9BLNTUxJTE8sTk4sUihILcosz8zLzkkFALPzC3c&q=madagascar+periwinkle&rlz=1C1BNSD_enBD1096BD1096&oq=madagack&gs_lcrp=EgZjaHJvbWUqDAgHEC4YChjUAhiABDIGCAAQRRg5Mg8IARAuGAoYgwEYsQMYgAQyDwgCEC4YChiDARixAxiABDIPCAMQLhgKGIMBGLEDGIAEMg8IBBAuGAoYgwEYsQMYgAQyCQgFEC4YChiABDIJCAYQABgKGIAEMgwIBxAuGAoY1AIYgAQyDAgIEC4YChjUAhiABNIBCTEwNjE1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=hfONKTl14Y_RIM&vssid=l">mada</a>
+    <a href="https://www.google.com/search?q=google&rlz=1C1BNSD_enBD1096BD1096&oq=&gs_lcrp=EgZjaHJvbWUqCQgBECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQLhgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gIyFQgIEC4YQxi0AhjqAhjIAxiABBiKBdIBCTI2MzJqMGoxNagCCbACAQ&sourceid=chrome&ie=UTF-8">google</a>
+    <br>
+    <ul>
+        <li>alia</li>
+        <li>malia</li>
+        <li>talia</li>
+        <li>italia</li>
+        <li>kamalia</li>
+        <li>maria</li>
+        <li>faria</li>
+    </ul>
+    
 </body>
 </html>
